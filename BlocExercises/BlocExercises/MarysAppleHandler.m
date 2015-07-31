@@ -13,16 +13,31 @@
 - (NSString *) itemMaryCanPurchaseForDollars:(NSInteger)dollars {
     NSString *itemToReturn;
 
-    /* WORK HERE */
-    
-    NSLog(@"For $%ld, Mary can: %@", (long)dollars, itemToReturn);
+//    - [(void) checkActualDollars:(NSInteger)actualDollars]{
+//        NSInteger minimumDollars = 4;
+//        if (actualDollars > minimumDollars) {
+//            NSLog(@"have some %@");//set %@ to itemToReturn
+//            else
+//                NSLog(@"get out of my store");
+//            
+//        }
+//    }
+//    
+//    {NSInteger actualDollars = 4;
+//        [self checkActualDollars:actualDollars];
+//    }
+//    {NSInteger secondActualDollars = //different dollars//
+//    
+//    NSLog(@"For $%ld, Mary can: %@", (long)dollars, itemToReturn);
     return itemToReturn;
 }
 
 - (NSUInteger) dollarCostForAppleFlavoredVodka {
-    /* WORK HERE */
+    /* If getsDiscount = NO, return 24
+     If getsDiscount = YES, return 18 */
 
     NSUInteger cost = 24;
+    //Bool variable = [self.getsDiscount]?//
     
     if (self.getsDiscount) {
         cost *= .75;
