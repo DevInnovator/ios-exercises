@@ -11,7 +11,19 @@
 @implementation AwesomeCounter
 
 - (NSString *) stringWithNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber {
-    /* WORK HERE */
+    /*if (number == otherNumber) {
+        NSLog(@"%ld", (long) number);
+    }*/
+    /*if (number == otherNumber) {
+        NSString *stringWithNumbersBetweenNumber = [NSString stringWithFormat:@"%ld", (long)number];
+    }
+    
+    number = 1;
+    otherNumber = 3;
+    
+    NSLog(@"%ld%ld", number, otherNumber);
+    */
+    
     return @"";
 }
 
